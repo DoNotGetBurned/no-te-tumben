@@ -14,7 +14,7 @@
 
 <meta name="author" content="Don't Get Played"/>
 <meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://donotgetburned.github.io/no-te-tumben/"/>
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/no-te-tumben/"/>
 
 <!-- GEO TAGS: helps surface this in local and regional searches -->
 <meta name="geo.region" content="CO-MAG"/>
@@ -29,7 +29,7 @@
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Don't Get Played · No Te Tumben"/>
 <meta property="og:description" content="Recognize manipulation before it costs you. A bilingual guide to relationship red flags — English & Spanish."/>
-<meta property="og:url" content="https://donotgetburned.github.io/no-te-tumben/"/>
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/no-te-tumben/"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:locale:alternate" content="es_ES"/>
 
@@ -45,8 +45,8 @@
 <!-- ═══════════════════════════════════════════
      LANGUAGE & REGION
 ═══════════════════════════════════════════ -->
-<link rel="alternate" hreflang="en" href="https://donotgetburned.github.io/no-te-tumben/"/>
-<link rel="alternate" hreflang="es" href="https://donotgetburned.github.io/no-te-tumben/"/>
+<link rel="alternate" hreflang="en" href="https://YOUR-USERNAME.github.io/no-te-tumben/"/>
+<link rel="alternate" hreflang="es" href="https://YOUR-USERNAME.github.io/no-te-tumben/"/>
 
 <!-- ═══════════════════════════════════════════
      THEME COLOR
@@ -70,9 +70,9 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:60vw;height:6
 .lang-btn:hover{background:#ff00cc;color:#0a0010}
 
 /* HERO */
-.hero{min-height:140vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-align:center;padding:0 20px 60px;position:relative;overflow:hidden}
-.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;filter:saturate(1.15) brightness(.85)}
-.hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,0,16,.05) 0%,transparent 40%,rgba(10,0,16,.55) 78%,rgba(10,0,16,.97) 100%)}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-align:center;padding:0 20px 60px;position:relative}
+.hero-img{position:fixed;top:0;left:0;width:100%;height:auto;object-fit:contain;object-position:top center;filter:saturate(1.15) brightness(.85);z-index:-1}
+.hero-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(to bottom,rgba(10,0,16,.0) 0%,rgba(10,0,16,.0) 60%,rgba(10,0,16,.7) 85%,rgba(10,0,16,.95) 100%);z-index:-1}
 .drop-zone{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:3;background:rgba(10,0,16,.75);border:2px dashed rgba(255,0,204,.5);cursor:pointer;transition:background .2s}
 .drop-zone.drag{background:rgba(255,0,204,.15)}
 .drop-icon{font-size:48px;margin-bottom:12px;filter:drop-shadow(0 0 12px rgba(255,0,204,.6))}
@@ -88,7 +88,7 @@ h1 .accent{color:#ff00cc;display:block}
 @keyframes pulse{0%,100%{opacity:.3}50%{opacity:.8}}
 
 /* SECTIONS */
-section{max-width:680px;margin:0 auto;padding:80px 24px;position:relative;z-index:1}
+section{max-width:680px;margin:0 auto;padding:80px 24px;position:relative;z-index:1;background:rgba(10,0,16,0.7);backdrop-filter:blur(2px)}
 .section-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#e040fb;font-weight:600;margin-bottom:10px}
 h2{font-family:'Bebas Neue',Impact,sans-serif;font-size:clamp(40px,9vw,58px);letter-spacing:.03em;line-height:1;margin-bottom:18px}
 .intro-text{color:rgba(255,255,255,.55);font-size:15px;font-weight:300;margin-bottom:40px;line-height:1.75}
